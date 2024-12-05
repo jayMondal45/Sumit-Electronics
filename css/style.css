@@ -300,7 +300,7 @@ marquee{
 #navbar {
     width: 100% !important;
     background-color: transparent !important;
-    padding-bottom: 0px !important;
+    padding: 0px !important;
 }
 
 .navbar_logo {
