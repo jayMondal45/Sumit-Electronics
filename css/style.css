@@ -99,6 +99,9 @@ a {
         width: 100px;
         height: 100px;
     }
+    .choose_counter{
+        margin-bottom: 15px;
+    }
 }
 
 .support_image img {
