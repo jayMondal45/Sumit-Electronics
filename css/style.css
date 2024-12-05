@@ -300,7 +300,7 @@ marquee{
 #navbar {
     width: 100% !important;
     background-color: transparent !important;
-    padding: 0px !important;
+    padding-bottom: 20px !important;
 }
 
 .navbar_logo {
@@ -1925,8 +1925,8 @@ td {
 }
 
 .checkbox-label {
-    display: flex;
-    align-items: center;
+/*     display: flex;
+    align-items: center; */
     font-size: 14px;
 }
 
