@@ -1,0 +1,26 @@
+<!----- Fon bottom to top------>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        // Wait for the DOM to load
+        document.addEventListener("DOMContentLoaded", function () {
+            const scrollUpButton = document.getElementById("scrollUp");
+
+            // Show or hide the button based on scroll position
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 100) { // Show after scrolling 100px
+                    scrollUpButton.style.display = "block";
+                } else {
+                    scrollUpButton.style.display = "none";
+                }
+            });
+
+            // Smooth scroll to top on button click
+            scrollUpButton.addEventListener("click", function () {
+                window.scrollTo({
+                    top: 0, // Scroll to the top
+                    behavior: "smooth" // Enable smooth scrolling
+                });
+            });
+        });
+    </script>

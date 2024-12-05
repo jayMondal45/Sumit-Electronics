@@ -1,0 +1,37 @@
+/* Preloader Background */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Black background for contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeOut 0.5s ease-in-out 3.5s forwards; /* Smooth fade-out after typing ends */
+}
+
+/* Preloader Text */
+.preloader-text {
+    font-family: 'Pacifico', cursive; /* Cursive font for elegance */
+    color: #3498db; /* Blue color for a professional look */
+    font-size: 3rem; /* Larger font size for emphasis */
+    white-space: nowrap; /* Keeps text on one line */
+    overflow: hidden; /* Hides the text initially */
+    border-right: 3px solid #3498db; /* Cursor effect */
+    width: 0; /* Starts with no width for typing animation */
+    animation: typing 1.5s steps(22, end) forwards; /* Typing effect */
+}
+
+/* Typing Effect */
+@keyframes typing {
+    from { width: 0; } /* Start with no text visible */
+    to { width: 16ch; } /* Typing stops after 16 characters ("Sumit Electronics") */
+}
+
+/* Fade-Out Effect for Preloader */
+@keyframes fadeOut {
+    to { opacity: 0; visibility: hidden; }
+}
