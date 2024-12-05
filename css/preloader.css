@@ -35,3 +35,9 @@
 @keyframes fadeOut {
     to { opacity: 0; visibility: hidden; }
 }
+
+@media (max-width: 600px){
+    .preloader-text{
+        font-size: 2rem;
+    }
+}
