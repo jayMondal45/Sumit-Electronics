@@ -327,8 +327,9 @@ marquee{
         width: 100% !important;
        margin-left: 0px;
     }
+
     #navbar{
-        padding-bottom:20px !important;
+        padding-bottom: 20px !important;
     }
 }
 
@@ -1928,7 +1929,7 @@ td {
 }
 
 .checkbox-label {
-/*     display: flex;
+    /* display: flex;
     align-items: center; */
     font-size: 14px;
 }
